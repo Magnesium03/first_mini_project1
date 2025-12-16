@@ -106,13 +106,34 @@ main {
 }
 
 .phr2 {
-    width: 771px;
-    height: 132px;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 27px;
     margin-bottom: 120px;
+}
+
+.phr2-p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.phr2-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.phr2-p2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
 }
 
 .phr2 p {
@@ -121,14 +142,22 @@ main {
     color: var(--letter-color);
 }
 
-.phr2 input {
+.phr2 .input_box {
     width: 228px;
-    height: 56px;
-    border-radius: 8px;
+    height: 57px;
+    border-radius: 7px;
+    background-color: var(--letter-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phr2 .input_box input {
+    width: 148px;
+    border: none;
     font-size: 24px;
     font-weight: 400;
     color: var(--input-color);
-    margin: 0 20px;
 }
 
 .phr2 input::placeholder {
@@ -209,9 +238,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-button p {
     font-family: 'GmarketSansBold';
     font-size: 24px;
     font-weight: 500;
@@ -252,7 +278,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 
 .container2 {
@@ -300,6 +326,10 @@ footer p {
     width: 508px;
     height: 64px;
     background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
 @media (max-width:771px) {
@@ -356,28 +386,35 @@ footer p {
     }
 
     .phr2 {
-        width: 319px;
-        height: 114px;
-        margin-bottom: 80px;
-        gap: 12px;
+        gap: 17px;
+        margin-bottom: 49px;
+    }
+
+    .phr2-p1 {
+        gap: 4px;
+    }
+
+    .phr2-p2 {
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    .phr2-p2 span {
+        gap: 4px;
+    }
+
+    .phr2 .input_box {
+        width: 156px;
+        height: 37px;
     }
 
     .phr2 p {
         font-size: 14px;
     }
 
-    .phr2 p:nth-child(2) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .phr2 input {
-        width: 156px;
-        height: 38px;
+    .phr2 .input_box input {
+        width: 86px;
         font-size: 14px;
-        margin: 0 8px;
     }
 
     .phr2 input::placeholder {
@@ -390,7 +427,7 @@ footer p {
         margin-bottom: 68px;
     }
 
-    .btn1 p {
+    .btn1 span {
         width: 164px;
         height: 32px;
     }
@@ -455,6 +492,7 @@ footer p {
     }
 
     footer p {
+        width: 274px;
         font-size: 9px;
     }
 
@@ -492,5 +530,6 @@ footer p {
     .container2 button {
         width: 251px;
         height: 72px;
+        flex-direction: column;
     }
 }
