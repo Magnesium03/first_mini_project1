@@ -49,24 +49,7 @@
 
 ## 3. UI/UX 및 디자인
 
-### 3.1 와이어프레임 및 화면 구성
-
-- Desktop ver.
-<img src="./images/screenshot_desktop.png" width="30%" alt="데스크탑 화면">
-
-- Mobile ver.
-<img src="./images/screenshot_mobile1.png" width="30%" alt="모바일 화면1">
-<img src="./images/screenshot_mobile2.png" width="30%" alt="모바일 화면2">
-
-- Desktop View 팝업창
-<img src="./images/screenshot_desktop_popup.png" width="30%" alt="데스크탑 화면 팝업창">
-
-- Mobile View 팝업창
-<img src="./images/screenshot_mobile_popup.png" width="30%" alt="모바일 화면 팝업창">
-
-## 🖥️ 화면 설계 (UI Design)
-
-### 1. 메인 웹페이지
+### 3.1 메인 웹페이지
 <table>
   <tr>
     <th align="center">구분</th>
@@ -76,19 +59,16 @@
   <tr>
     <td align="center"><strong>전체 화면</strong></td>
     <td align="center">
-      <img src="./images/screenshot_desktop.png" width="450px" alt="Desktop Version"/><br>
-      <sub>데스크탑 메인</sub>
+      <img src="./images/screenshot_desktop.png" width="450px" alt="Desktop Version"/>
     </td>
     <td align="center">
       <img src="./images/screenshot_mobile1.png" width="180px" alt="Mobile Version 1"/>
       <img src="./images/screenshot_mobile2.png" width="180px" alt="Mobile Version 2"/>
-      <br>
-      <sub>모바일 메인 (스크롤)</sub>
     </td>
   </tr>
 </table>
 
-### 2. 팝업창 (Popup / Modal)
+### 3.2 팝업창 (Popup / Modal)
 <table>
   <tr>
     <th align="center">구분</th>
